@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_poi"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_margin="16dp"
+            android:text="Show existing POIs"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_poi"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_margin="16dp"
+            android:text="Add POI to current location"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
